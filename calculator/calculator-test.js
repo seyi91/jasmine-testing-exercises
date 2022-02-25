@@ -1,7 +1,7 @@
 
 it('should calculate the monthly rate correctly', function () {
   const values = {amount: 100000, years: 24, rate: 5}
-  expect(calculateMonthlyPayment(values)).toEqual('238.76')
+  expect(calculateMonthlyPayment(values)).toEqual('596.90')
 });
 
 
